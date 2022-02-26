@@ -1,0 +1,148 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a {
+    position: static;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.button {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+.button:active {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+.css-typing p {
+    border-right: .15em solid orange;
+    font-size: 60px;
+    color:darkorange;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .css-typing p:nth-child(1) {
+    width: 13.3em;
+    opacity: 0;
+    -webkit-animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
+    animation: type3 2s steps(20, end), blink .1s step-end infinite alternate;
+    -webkit-animation-delay: 1s;
+    animation-delay: 0s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .container {
+    width:100%;
+    height: 800px;
+  }
+ .joinus {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 74%;
+    margin: 0px 1%;
+    text-align: left;
+    border-radius: 30px;
+    float:left;
+}
+.box {
+    float: center;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+}
+.rec {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 24%;
+    margin: 0px 75%;
+    text-align: left;
+    border-radius: 30px;
+}
+.recformat {
+    float: center;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+}
+.titre {
+  color: #000000;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.copyright {
+    background-color: #333;
+    overflow: hidden;
+    position: absolute;
+    float: center;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 0px 12px;
+    text-decoration: none;
+    font-size: 12px;
+    right: 0px;
+    left: 0px;
+}
+  
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }
