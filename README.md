@@ -1,1 +1,1 @@
-https://Farmeurimmo.github.io/home.html
+https://Farmeurimmo.github.io
